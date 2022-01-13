@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(26, 26, 26);
+    cursor: none;
+}
+#player1 {
+    height: 150px;
+    width: 20px;
+    background-color: white;
+    position: absolute;
+    right: 96%;
+}
+#player2 {
+    height: 150px;
+    width: 20px;
+    background-color:white;
+    position: absolute;
+    left: 96%;
+}
+#ball {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    background-color: white;
+}
+#myCanvas {
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    width: 100%;
+    height: 100%;
+}
